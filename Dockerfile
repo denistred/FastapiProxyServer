@@ -11,6 +11,7 @@ WORKDIR /app
 
 COPY . /app
 
+EXPOSE 5432
 EXPOSE 8000
 
 # Ваш код и прочие инструкции Dockerfile
