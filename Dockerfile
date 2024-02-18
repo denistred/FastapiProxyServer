@@ -14,4 +14,4 @@ COPY . /app
 EXPOSE 8000
 
 # Ваш код и прочие инструкции Dockerfile
-CMD ["uvicorn", "src.main:app"]
+CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000"]
